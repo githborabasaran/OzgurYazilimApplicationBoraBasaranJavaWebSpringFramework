@@ -1,0 +1,55 @@
+*******************************
+** Build and Run the Backend **
+*******************************
+
+1) Navigate to the root directory of the Spring Boot application:
+
+Command:
+
+cd /Users/borabasaran/Desktop/OzgurYazilimApplicationBoraBasaranJavaWebSpringFramework
+
+2) Build the Spring Boot application using Maven:
+
+Command:
+mvn clean install
+
+3) Run the Spring Boot application:
+
+Command:
+mvn spring-boot:run
+
+********************************
+** Start the React Frontend **
+********************************
+
+1) Navigate to the frontend directory:
+
+Command:
+cd /Users/borabasaran/Desktop/OzgurYazilimApplicationBoraBasaranJavaWebSpringFramework/Frontend/index.html
+
+2) Install dependencies:
+
+Command:
+npm install
+
+3) Start the React development server:
+
+Command:
+npm start
+
+********************************
+** Configuration **
+********************************
+
+The application uses the following configuration files:
+
+1) `application.properties` (in the src/main/resources folder) for Spring Boot configurations.
+2) `.env` (in the frontend folder) for React environment variables.
+
+********************************
+** Usage **
+********************************
+
+Access the application frontend at http://localhost:3000 in your web browser.
+Use the provided functionalities to create, update, view, and delete reports.
+

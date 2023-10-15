@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Management System</title>
+
+</head>
+
+<body>
+    <h1>Report Management System</h1>
+
+    <!-- Form to create a new report -->
+    <h2>Create Report</h2>
+    <form id="createReportForm">
+        File Number: <input type="text" id="fileNumber"><br>
+        Patient Name: <input type="text" id="patientName"><br>
+        Diagnosis Title: <input type="text" id="diagnosisTitle"><br>
+        Diagnosis Details: <input type="text" id="diagnosisDetails"><br>
+        <button type="button" onclick="createReport()">Create Report</button>
+    </form>
+
+    <!-- Display the list of reports -->
+    <h2>Reports</h2>
+    <table id="reportTable">
+        <thead>
+            <tr>
+                <th>File Number</th>
+                <th>Patient Name</th>
+                <th>Diagnosis Title</th>
+                <th>Diagnosis Details</th>
+            </tr>
+        </thead>
+        <tbody id="reportTableBody"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
